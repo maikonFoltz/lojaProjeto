@@ -1,0 +1,15 @@
+input#pedir{
+    margin-top: 45%;
+}
+h11{
+    color: red;
+}
+/*aqui deixa a tabela com as linhas pretas e brancas*/
+table.table tr:nth-child(even){
+    background-color: rgb(235, 241, 241);
+}
+
+table.table{
+    width: 100%;
+    text-align: left;
+}
