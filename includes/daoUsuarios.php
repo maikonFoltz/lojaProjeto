@@ -10,10 +10,10 @@ function InserirDados ($nomeUsuario, $emailUsuario, $senhalUsuario, $tipolUsuari
     return FazBase($sql);
     }  
 
-function ListarUsuarios()
+function ListarCliente()
     
     {
-    $sql = "SELECT * FROM testePHP.usuarios";
+    $sql = "SELECT * FROM fibel009.usuarios";
     return FazBase($sql);
                
     }
